@@ -4,7 +4,7 @@ from flask import Flask
 app = Flask(__name__)
 
 @app.route('/')
-def nao_entre_em_panico():
+def show_primos():
     limit = 100
     primos_showed = 2
     n = 4
